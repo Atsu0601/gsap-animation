@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+}
+.menu__item--1,
+.menu__item--2,
+.menu__item--3 {
+  position: relative;
+  width: 80px;
+  height: 10px;
+  margin-bottom: 10px;
+  background-color: #ed6b5d;
+  border-radius: 3px;
+}
+
+.menu {
+  transition: transform 500ms ease 0s;
+}
+.menu.active {
+  transform: translate3d(200px, 0, 0);
+}
+.menu.active ~ aside {
+  transform: translate3d(0, 0, 0);
+}
+
+aside {
+  transform: translate3d(-100%, 0, 0);
+  transition: transform 500ms ease 0s;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #ed6b5d;
+}
+aside ul{
+  padding: 30px 30px;
+  list-style: none;
+}
+aside ul li {
+  line-height: 2;
+}
+aside ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+body {
+  background: #f9f9f9;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: 0;
+  padding: 50px;
+}

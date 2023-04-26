@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+}
+#boxWrapper {
+  width:700px;
+  height:300px;
+  visibility:hidden;
+}
+
+#boxWrapper div {
+  width:80px;
+  height:80px;
+  background-color:purple;
+  margin:10px;
+  display:inline-block;
+  font-size:60px;
+  line-height:80px;
+  color:white;
+  text-align:center;
+  -webkit-font-smoothing:antialiased;
+  -webkit-transform:translateZ(0.1px);
+  -moz-transform:translateZ(0.1px);
+  -o-transform:translateZ(0.1px);
+  -ms-transform:translateZ(0.1px);
+  transform:translateZ(0.1px);
+}
