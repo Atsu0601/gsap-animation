@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html{
+  height: 100%;
+}
+body{
+	font-family: 'Poppins', sans-serif ;
+	background-color: #121212 ;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	color: #fff ;
+}
+h1 {
+	--x-translate: 0;
+	--y-translate: 0;
+	text-align: center;
+	font-size: calc(100vw / 24 * 3);
+	color: #f0f0f0;
+	transform: matrix3d(1, 0, 0, calc(var(--x-translate) / 1000000), 0, 1, 0, calc(var(--y-translate) / 1000000), 0, 0, 1, 0, 0, 0, 0, 1);
+	text-shadow: calc(100vw / 24 * 0.1666666667) 10px 2px rgba(0, 0, 0, 0.01), calc(100vw / 24 * 0.1666666667) calc(100vw / 24 * 0.1666666667) 10px rgba(0, 0, 0, 0.15), calc(calc(100vw / 24 * 0.1666666667) * -1) calc(calc(100vw / 24 * 0.1666666667) * -1) 10px rgba(255, 255, 255, 0.5);
+}
