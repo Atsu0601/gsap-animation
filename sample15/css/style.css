@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	background: #101010;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+h2{
+	color: #fff;
+}
+
+.container {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+  }
+  
+  .container div {
+	position: absolute;
+	background: #9CEE02;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	box-shadow: "0px 0px 4px 0px #9CEE02";
+  }
