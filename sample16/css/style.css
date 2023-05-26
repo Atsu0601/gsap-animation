@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	background: #101010;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+h2{
+	color: #fff;
+}
+
+section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+   }
+   
+   .box {
+	width: 100px;
+	height: 100px;
+	border-radius: 20px;
+	margin: 2rem;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+   }
+   
+   .css {
+	background-color: #654cb7;
+   }
+   
+   .js {
+	background-color: #23b195;
+   }
+   
+   .css {
+	animation: spin 4s infinite linear;
+   }
+   
+   @keyframes spin {
+	from {
+	 transform: rotate(0deg);
+	}
+	to {
+	 transform: rotate(360deg);
+	}
+   }
+   
+   @media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+	 animation-duration: 0.01ms !important;
+	 animation-iteration-count: 1 !important;
+	 transition-duration: 0.01ms !important;
+	 scroll-behavior: auto !important;
+	}
+   
+	#motionToggle {
+	 display: none;
+	}
+   }
+   
+   .reducedMotion *,
+   .reducedMotion *::before,
+   .reducedMotion *::after {
+	animation-duration: 0.01ms !important;
+	animation-iteration-count: 1 !important;
+	transition-duration: 0.01ms !important;
+	scroll-behavior: auto !important;
+   }
+   
