@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	background: #f7a3a3;
+	padding: 0px;
+	margin: 0px;
+}
+h2{
+	color: #fff;
+}
+#rectangle{
+	width: 150px;
+	height: 150px;
+	background-color: red;
+	position: absolute;
+}
