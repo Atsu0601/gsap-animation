@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+h2{
+	color: #fff;
+}
+section{
+	height: 100vh;
+	width: 100%;
+	background: #778899;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  section:nth-child(1){
+	color: wheat;
+	font-size: 40px;
+  }
+  section:nth-child(even){
+	background: #424d57;
+  }
+  
+  box{
+	width: 40%;
+	height: 40%;
+	background: #3f87cf;
+  }
+  
